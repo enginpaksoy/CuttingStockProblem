@@ -1,0 +1,61 @@
+/* Adjusting text box to fit within the flex container */
+.textBox {
+  margin-right: 20px;
+  flex: 1; /* This makes sure the textBox takes available space */
+  min-width: 200px; /* Ensuring a minimum width for the input field */
+}
+
+/* Flex container for the form */
+.form-container3 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; /* Allows wrapping of elements if necessary */
+  justify-content: space-between; /* Distribute items with space in between */
+  align-items: center; /* Align items vertically in the center */
+  background-color: #fff;
+  height: max-content;
+  margin: 50px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+/* Center button styles */
+.center-button3 {
+  margin: 5px;
+  background-color: #747c8c;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 10px 15px; /* Added padding for better button size */
+}
+
+.center-button3:hover {
+  background-color: #464b54;
+}
+
+/* Table Styling */
+table {
+  background-color: #f2f2f2;
+  color: #333;
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 20px;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+th {
+  background-color: #4caf50;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
